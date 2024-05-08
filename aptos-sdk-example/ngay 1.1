@@ -1,0 +1,5 @@
+const aptos = new Aptos(); // default to devnet
+
+// with custom configuration
+const aptosConfig = new AptosConfig({ network: Network.TESTNET });
+const aptos = new Aptos(aptosConfig);
